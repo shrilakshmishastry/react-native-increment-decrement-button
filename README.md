@@ -109,7 +109,7 @@ Name | Type | Default
 * minVal - minimun bound to decrement value.
 * max - maximum bound to which value to be incremented.
 * disableControl - prop to completely disable both buttons,useful incase of api calls.
-* minreq - minimum value to be present
+* minreq - minimum initial value to be present
 * handleClick(val) - function which takes value as param ,called when either button is clicked
 * styleTextInput - prop to apply custom style to view in which value is displayed
 * styleBtn - prop to apply custom style for buttons like width,height etc.

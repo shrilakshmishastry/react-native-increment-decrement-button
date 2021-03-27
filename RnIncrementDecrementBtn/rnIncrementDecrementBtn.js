@@ -112,8 +112,6 @@ const RnIncrementDecrementBtn = ({
           disabled={rightBtnDisable || disableControl}
           color={'#ffffff'}
           onPress={() => {
-            console.log(value - 1 <= min );
-            console.log(value - 1 < minReq);
             // changeDisable(true);
             if (value - 1 <= min || value - 1 < minReq) {
               changeLeftBtnDisable(false);
